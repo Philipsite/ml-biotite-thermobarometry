@@ -1,0 +1,24 @@
+[project]
+name = "ml-tb"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Philipsite",email = "philip.hartmeier@unil.ch"}
+]
+readme = "README.md"
+requires-python = ">=3.11 <3.12"
+dependencies = [
+    "tensorflow (==2.15.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "scipy (>=1.15.2,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+]
+
+[tool.poetry]
+packages = [{include = "ml_tb", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
