@@ -1,0 +1,56 @@
+# exported figures
+00_data_analysis/exported_figs/
+00_data_analysis/exported_figs/*
+
+01_fit_natural_biotite/plot_feature_eng_export_figs/
+01_fit_natural_biotite/plot_feature_eng_export_figs/*
+01_fit_natural_biotite/plot_hyperparamtesting_export_figs/
+01_fit_natural_biotite/plot_hyperparamtesting_export_figs/*
+
+02_pretraining/exported_figs/
+02_pretraining/exported_figs/*
+
+03_transfer_learning/exported_figs/
+03_transfer_learning/exported_figs/*
+
+04_model_selection_validation/exported_figs/
+04_model_selection_validation/exported_figs/*
+04_model_selection_validation/exported_figs_errorprop/
+04_model_selection_validation/exported_figs_errorprop/*
+04_model_selection_validation/exported_figs_sequence/
+04_model_selection_validation/exported_figs_sequence/*
+
+05_systematic_performance_analysis/exported_figs/
+05_systematic_performance_analysis/exported_figs/*
+05b_maps/exported_figs/
+05b_maps/exported_figs/*
+
+06_explainability/exported_figs/
+06_explainability/exported_figs/*
+
+
+#HDF5
+*.hdf5
+*.h5
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+__pycache__/*
+*.pyc
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# DS_Store
+*.DS_Store
