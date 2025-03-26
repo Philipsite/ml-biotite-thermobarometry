@@ -28,6 +28,8 @@
 06_explainability/exported_figs/
 06_explainability/exported_figs/*
 
+# Notebooks for plotting (not used in the manuscript)
+04_model_selection_validation/metamorphic_sequences.ipynb
 
 #HDF5
 *.hdf5
